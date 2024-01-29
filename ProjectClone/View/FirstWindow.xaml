@@ -1,0 +1,17 @@
+﻿<Window x:Class="ProjectClone.View.FirstWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectClone.View"
+        mc:Ignorable="d"
+          Title="Game Selection" Height="550" Width="900">
+    <Grid Margin="0,0,0,0">
+
+        <MediaElement x:Name="backgroundGif" Source="C:\Users\danie\source\repos\ProjectClone\ProjectClone\Resources\icegif-47.gif" LoadedBehavior="Manual" />
+        <TextBlock Name="WelcomeTextBlock" HorizontalAlignment="Left" Height="48" Margin="86,57,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="748" FontSize="24" Foreground="White" FontFamily="Arial Black"/>
+        <Button Content="Study Math" HorizontalAlignment="Left" Height="52" Margin="132,217,0,0" VerticalAlignment="Top" Width="136" Click="Math_Click" />
+        <Button Content="Study English" HorizontalAlignment="Left" Height="52" Margin="589,217,0,0" VerticalAlignment="Top" Width="136" Click="English_Click"/>
+
+    </Grid>
+</Window>

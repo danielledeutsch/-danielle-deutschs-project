@@ -1,0 +1,21 @@
+﻿<Window x:Class="ProjectClone.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectClone.View"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Source="https://i.pinimg.com/564x/9c/d3/11/9cd31133b67ddff6bb4bf50917c18065.jpg"  Stretch="UniformToFill" Opacity="0.5" Margin="0,-6,0,6" />
+        <TextBox Name="username_Box" HorizontalAlignment="Left" Height="23" Margin="98,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="92"/>
+        <TextBox Name="password_Box" HorizontalAlignment="Left" Height="27" Margin="98,274,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="92"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="98,115,0,0" TextWrapping="Wrap" Text="username" VerticalAlignment="Top" Width="70"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="98,244,0,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top" Width="92"/>
+        <Button Content="Login" HorizontalAlignment="Left" Height="22" Margin="113,337,0,0" VerticalAlignment="Top" Width="77" Click="Login_Click"/>
+        <Button Content="SignUp" HorizontalAlignment="Left" Height="39" Margin="478,320,0,0" VerticalAlignment="Top" Width="128" Click="SignUp_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="424,294,0,0" TextWrapping="Wrap" Text="dont have an account yet? create one!" VerticalAlignment="Top" Width="309" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Height="42" Margin="91,32,0,0" TextWrapping="Wrap" Text="Login to your account" VerticalAlignment="Top" Width="390" FontFamily="Arial Rounded MT Bold" FontSize="24"/>
+
+    </Grid>
+</Window>
